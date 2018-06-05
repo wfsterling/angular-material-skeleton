@@ -20,14 +20,14 @@ ROOT_DIR=$(pwd)/<project name>
 # move into it
 cd $ROOT_DIR
 
-Install Angular Material
+# Install Angular Material
 To install Angular Material as a dependency of your project, 
 run the following command:
 
 npm install @angular/material @angular/cdk
 
 
-Angular Material Theme
+# Angular Material Theme
 After installing Angular Material, you will configure a theme 
 that defines what colors will be used in your Angular Material 
 components. To configure the basic theme, open the src/styles.css 
@@ -36,7 +36,7 @@ file and paste the following code in it:
 @import "~@angular/material/prebuilt-themes/indigo-pink.css";
 
 
-Angular Material Gesture
+# Angular Material Gesture
 
 npm install hammerjs
 
@@ -44,13 +44,13 @@ After installing it, add the following line at the top of the src/main.ts file:
 
 import 'hammerjs'; 
 
-Material Icons
+# Material Icons
 Another cool thing to add to your project is the Material Icons library.
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
 
 
-Importing Material Components
+# Importing Material Components
 The first thing you will do is to create a new file called material.module.ts 
 in the ./src/app directory. Inside this file, you will add the following code:
 
